@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>WordCloud2.js Demo</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="text-center">
+      <button id="redrawButton" class="button-3" role="button">Redraw</button>
+    </div>
+    <br />
+    <div class="word-cloud-container">
+      <div class="word-cloud-card">
+        <div class="word-cloud-title">Canvas-based Word Cloud</div>
+        <canvas id="word-cloud-canvas" width="1024px" height="1024px"></canvas>
+        <div id="word-cloud-canvas-hover-box" hidden></div>
+      </div>
+      <div class="word-cloud-card">
+        <div class="word-cloud-title">HTML-based Word Cloud</div>
+        <div id="word-cloud-html" width="1024px" height="1024px"></div>
+        <div id="word-cloud-canvas-hover-box" hidden></div>
+      </div>
+    </div>
+    <script src='https://cdn.jsdelivr.net/npm/wordcloud@1.2.2/src/wordcloud2.min.js'></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
